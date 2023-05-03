@@ -6,9 +6,6 @@ import javax.crypto.Cipher
 
 import javax.crypto.spec.SecretKeySpec
 
-
-
-
 class AESEncryptAlgorithm: IEncryptAlgorithm {
     override fun encrypt(message: String, password: String): String {
         val key: Key = SecretKeySpec(password.toByteArray(), "AES")
