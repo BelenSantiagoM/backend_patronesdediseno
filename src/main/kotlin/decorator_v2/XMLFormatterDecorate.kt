@@ -1,9 +1,6 @@
 package decorator_v2
 
-
-
-
-import org.json.JSONObject
+/*import org.json.JSONObject
 import org.json.XML
 class XMLFormatterDecorate(private var message:IMessage): MessageDecorator(message) {
     override fun processMessage(): IMessage {
@@ -16,4 +13,4 @@ class XMLFormatterDecorate(private var message:IMessage): MessageDecorator(messa
         val xml = XML.toString(json)
         return  TextMessage(xml)
     }
-}
+}*/

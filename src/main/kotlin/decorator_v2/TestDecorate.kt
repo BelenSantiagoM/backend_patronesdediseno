@@ -1,6 +1,6 @@
 package decorator_v2
 
-fun main(){
+/*fun main(){
     val customerMessage = CustomerMessage(Customer(
         "Ambrosio Cardoso Jimenez", "cardosojmz@gmail.com", "9513618396").toString()
     )
@@ -28,3 +28,4 @@ fun main(){
                 + message2)
     )
 }
+ */
