@@ -16,5 +16,6 @@
     <orderEntry type="library" name="mysql-connector-j-8.0.32" level="project" />
     <orderEntry type="library" name="postgresql-42.5.3" level="project" />
     <orderEntry type="library" name="json-20230227" level="project" />
+    <orderEntry type="library" name="poi-5.2.31" level="project" />
   </component>
 </module>
