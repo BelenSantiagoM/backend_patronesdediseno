@@ -1,4 +1,4 @@
-package visitor
+/*package visitor
 
 class PriceProjectVisitor : IVisitor<Number> {
     private var totalPrice: Double = 0.0
@@ -23,4 +23,4 @@ class PriceProjectVisitor : IVisitor<Number> {
     override fun getResult(): Number {
         return totalPrice
     }
-}
+}*/

@@ -1,4 +1,4 @@
-package visitor
+/*package visitor
 
 import javax.xml.bind.annotation.XmlAccessType
 import javax.xml.bind.annotation.XmlAccessorType
@@ -44,4 +44,4 @@ class Project : IVisitable {
     override fun accept(visitor: IVisitor<*>) {
         visitor.project(this)
     }
-}
+}*/

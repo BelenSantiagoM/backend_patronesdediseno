@@ -1,6 +1,6 @@
 package visitor
 
-class CostProjectVisitor : IVisitor<Number> {
+/*class CostProjectVisitor : IVisitor<Number> {
     private var totalCost: Double = 0.0
 
     override fun project(project: Project) {
@@ -23,4 +23,4 @@ class CostProjectVisitor : IVisitor<Number> {
     override fun getResult(): Number {
         return totalCost
     }
-}
+}*/

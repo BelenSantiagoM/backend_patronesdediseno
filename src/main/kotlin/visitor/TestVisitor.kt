@@ -1,4 +1,4 @@
-package visitor
+/*package visitor
 
 import javax.xml.bind.JAXBContext
 import javax.xml.bind.Unmarshaller
@@ -38,4 +38,4 @@ object VisitorMain {
             println("${pay.employeeName} > ${pay.totalPay}")
         }
     }
-}
+}*/

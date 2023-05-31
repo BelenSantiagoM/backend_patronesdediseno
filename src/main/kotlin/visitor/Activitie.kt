@@ -1,4 +1,4 @@
-package visitor
+/*package visitor
 
 import javax.xml.bind.annotation.XmlAccessType
 import javax.xml.bind.annotation.XmlAccessorType
@@ -79,4 +79,4 @@ class Activitie : IVisitable {
     fun setResponsible(responsible: Employee) {
         this.responsible = responsible
     }
-}
+}*/

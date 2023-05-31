@@ -1,4 +1,4 @@
-package visitor
+/*package visitor
 
 class PaymentProjectVisitor : IVisitor<MutableList<EmployeePay>> {
     private var employeePayment = HashMap<String?, Number?>()
@@ -37,4 +37,4 @@ class PaymentProjectVisitor : IVisitor<MutableList<EmployeePay>> {
 
         return response
     }
-}
+}*/

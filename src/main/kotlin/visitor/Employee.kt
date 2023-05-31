@@ -1,4 +1,4 @@
-package visitor
+/*package visitor
 
 import javax.xml.bind.annotation.XmlAccessType
 import javax.xml.bind.annotation.XmlAccessorType
@@ -54,4 +54,4 @@ class Employee : IVisitable {
         val employee = other as Employee
         return name == employee.name
     }
-}
+}*/
