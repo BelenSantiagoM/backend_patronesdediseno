@@ -29,7 +29,7 @@ class DistributionModule: AbstractModule() {
         }!!
     }
 
-    private fun scheduleDelivery(message: ModuleMessage): Void? {
+    private fun scheduleDelivery(message: ModuleMessage): Unit? {
         val saleOrder = message.getSource() as SaleOrder
         println("Programando envío del pedido: ${saleOrder.id}")
         // Lógica para programar el envío del producto al cliente
