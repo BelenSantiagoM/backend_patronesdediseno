@@ -29,7 +29,7 @@ class StockModule : AbstractModule() {
         }
     }
 
-    private fun decrementStock(message: ModuleMessage): Void? {
+    private fun decrementStock(message: ModuleMessage): Unit? {
         val saleOrder = message.getPayload() as SaleOrder
         for (product in saleOrder.getProductos()) {
             println("decrement product > ${product.getName()}")

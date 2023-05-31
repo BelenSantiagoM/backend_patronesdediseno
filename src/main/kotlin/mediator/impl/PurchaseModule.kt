@@ -31,7 +31,7 @@ class PurchaseModule : AbstractModule() {
 
     }
 
-    private fun purchaseRequest(message: ModuleMessage): Void? {
+    private fun purchaseRequest(message: ModuleMessage): Unit? {
         return null
     }
 }

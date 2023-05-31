@@ -26,7 +26,7 @@ class NotifyModule : AbstractModule() {
         }
     }
 
-    private fun notify(message: ModuleMessage): Void? {
+    private fun notify(message: ModuleMessage): Unit? {
         println("Notificación por EMail enviada")
         return null
     }
